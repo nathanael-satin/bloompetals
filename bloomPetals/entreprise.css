@@ -1,0 +1,66 @@
+body {
+  background-image: url(https://media.lesechos.com/api/v1/images/view/65003f4d1636bf3f3c173ef1/1280x720/0902010957136-web-tete.jpg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-between;
+    background-color: rgb(92, 92, 92);
+}
+.home {
+    color:whitesmoke;
+}
+
+.realisations {
+    color: whitesmoke;
+}
+.contact {
+    color: whitesmoke;
+}
+.nav-icon {
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 10px;
+}
+.Apropos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+    font-size:medium;
+    color: white;
+}
+
+  .desc {
+    font-size: 110% ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(105, 104, 104);
+  }
+
+  .Pourquoi-Nous {
+    
+    font-size: 110%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255)
+  }
+  
+
+ 
+
+  .photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-between;
+  }
+
+  .equipe {
+    text-align: center;
+  }

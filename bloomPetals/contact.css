@@ -1,0 +1,17 @@
+.navigations {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-between;
+    background-color: rgb(110, 110, 110);
+}
+.nav-icon {
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-icon img {
+max-width: 8%;
+}

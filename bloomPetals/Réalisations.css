@@ -1,0 +1,55 @@
+body {
+    background-image: url(images/camera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-between;
+    background-color: rgb(8, 197, 33);
+}
+
+.nav-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.nav-icon img {
+    max-width: 8%;
+
+}
+.home {
+    color: aliceblue;
+}
+.entreprise {
+    color: aliceblue;
+}
+
+.contact {
+     color: aliceblue;
+}
+.h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+}
+
+.fleurs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    line-gap-override: 10px;
+}
+
+.fleurs2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    glyph-orientation-horizontal: 10px;
+}
